@@ -1,7 +1,8 @@
 let todo = [];
 // let req = prompt("Enter the request");
 // console.log("req")
-let flag = true;
+let flag = false;
+let name = 'Unknown';
 while (flag) {
     let req = prompt("Enter the request")
     console.log(`Your request : ${req}`)
